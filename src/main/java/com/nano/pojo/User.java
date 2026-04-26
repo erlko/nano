@@ -1,2 +1,9 @@
-package com.nano.pojo;public class User {
+package com.nano.pojo;
+
+import lombok.Data;
+
+@Data
+public class User {
+    private String name;
+    private String password;
 }
